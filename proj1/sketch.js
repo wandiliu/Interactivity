@@ -1,4 +1,5 @@
 /*
+
 OpenWaters is a drawing application that was inspired by the dynamic 
 interactions between natural landscapes of the earth with water and 
 the sky. Exiting the welcome stage, this application first generates a 
@@ -214,14 +215,14 @@ function draw() {
       fill(getStroke());
   		ellipse(mouseX, mouseY, 30, 30);
   		fill(getWater())
-  		ellipse(pmouseX-5, 600-pmouseY, 15, 35)
+  		ellipse(pmouseX-5, 600-pmouseY, 35, 15)
  		 break;
     case 'e': //ellipses stroke
       noFill()
       stroke(getStroke());
   		ellipse(mouseX, mouseY+10, 20, 20);
   		stroke(getWater())
-  		ellipse(pmouseX-15, 600-pmouseY, 10, 10)
+  		ellipse(pmouseX-15, 600-pmouseY, 15, 5)
       break;
     case 'r': //square stroke
       noFill()
